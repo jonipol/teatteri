@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Esitys from './components/Esitys';
-
+import Menu from './components/Menu';
 
 
 /* import {
@@ -12,6 +12,7 @@ import Esitys from './components/Esitys';
 const App = (props) => {
   return (
     <div>
+      <Menu />
       <Esitys />
      {/*  <Router> */}
         {/*<MenuComponent /> */}
