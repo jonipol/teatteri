@@ -3,24 +3,22 @@ import Col from 'react-bootstrap/Col';
 
 const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
 
-  const showStyle = {
-    fontSize: 3 + 'vw',
+  const style = {
     paddingTop: 5,
     paddingBottom: 5,
-    paddingRight: 0,
-    paddingLeft: 0,
+    paddingRight: 5,
+    paddingLeft: 5
   };
 
-  const noShowStyle = {
-    fontSize: 2 + 'vw',
-    paddingTop: 5,
-    paddingBottom: 5,
-    paddingRight: 0,
-    paddingLeft: 0,
-  };
+  if (event1Time) {
+    style.fontSize = 3 + 'vw';
+  } else {
+    style.fontSize = 2 + 'vw';
+  }
 
+  // TODO: Refactor to have only one return
   if (event2Time) {
-    return(<Col xs={4} align='center' style={showStyle} className='border-bottom border-dark'>{text} {event1Time} {event2Time}</Col>);    
+    return(<Col xs={4} align='center' style={style} className='border-bottom border-dark'>{text} {event1Time} {event2Time}</Col>);    
   }
 
   let xs = 2
@@ -28,7 +26,7 @@ const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
     xs = colWidth;
 
   if (event1Time) {
-    return(<Col xs={xs} align='center' style={showStyle} className='border border-top-0 border-left-0 border-dark'>{text} {event1Time}</Col>);    
+    return(<Col xs={xs} align='center' style={style} className='border border-top-0 border-left-0 border-dark'>{text} {event1Time}</Col>);    
   }
 
   if (colWidth)
@@ -36,7 +34,7 @@ const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
   else
     xs = 1;
 
-  return(<Col xs={xs} align='center' style={noShowStyle} className='border border-top-0 border-left-0 border-dark'>{text}</Col>);
+  return(<Col xs={xs} align='center' style={style} className='border border-top-0 border-left-0 border-dark'>{text}</Col>);
 
 };
 

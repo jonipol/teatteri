@@ -57,6 +57,36 @@ const Naytokset = () => {
         <Naytos text='12.7' event1Time='13.00' event2Time='19.00'/>
       </Row>
 
+      <Row className='row'>
+        <Naytos text='6.7' />
+        <Naytos text='7.7' event1Time='19.00'/>
+        <Naytos text='8.7' />
+        <Naytos text='9.7' event1Time='19.00'/>
+        <Naytos text='10.7' />
+        <Naytos text='11.7' />
+        <Naytos text='12.7' event1Time='13.00' event2Time='19.00'/>
+      </Row>
+
+      <Row className='row'>
+        <Naytos text='6.7' />
+        <Naytos text='7.7' event1Time='19.00'/>
+        <Naytos text='8.7' />
+        <Naytos text='9.7' event1Time='19.00'/>
+        <Naytos text='10.7' />
+        <Naytos text='11.7' />
+        <Naytos text='12.7' event1Time='13.00' event2Time='19.00'/>
+      </Row>
+
+      <Row className='row'>
+        <Naytos text='6.7' />
+        <Naytos text='7.7' event1Time='19.00'/>
+        <Naytos text='8.7' />
+        <Naytos text='9.7' event1Time='19.00'/>
+        <Naytos text='10.7' />
+        <Naytos text='11.7' />
+        <Naytos text='12.7' event1Time='13.00' event2Time='19.00'/>
+      </Row>
+
     </Container>
   );
 };
