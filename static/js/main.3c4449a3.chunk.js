@@ -1,2 +1,0 @@
-(this.webpackJsonpteatteri_frontend=this.webpackJsonpteatteri_frontend||[]).push([[0],{34:function(e,t,n){e.exports=n(45)},45:function(e,t,n){"use strict";n.r(t);var r=n(0),o=n.n(r),a=n(24),c=n.n(a),i=(n(8),n(31),n(14),n(22),n(18),n(23),function(e){return o.a.createElement("div",null,"TESTI")});c.a.render(o.a.createElement(i,null),document.getElementById("root"))}},[[34,1,2]]]);
-//# sourceMappingURL=main.3c4449a3.chunk.js.map
