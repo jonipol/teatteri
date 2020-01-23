@@ -15,24 +15,26 @@ import {
 } from 'react-router-dom';
 
 const App = (props) => {
+
+  // TODO: Set maximum width to div. Prevent super wide view on big monitors.
+  // max-width?
   return (
     <div>
       <Router>
         <Menu />
-        
         {/*<Notification /> */}
-        <Route exact path = '/' render = { () => <Esitys /> } />
-        <Route exact path = '/sijainti' render = { () => <About />} />
-        <Route exact path = '/hinnasto' render = { () => <Prices />} />
-        <Route exact path = '/ennen' render = { () => <Before />} />
-        <Route exact path = '/historiaa' render = { () => <History />} />
-        <Route exact path = '/aiempaa' render = { () => <Past /> } />
-        <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
+        <div style={{width: '95%', margin: 'auto'}}>
+          <Route exact path = '/' render = { () => <Esitys /> } />
+          <Route exact path = '/sijainti' render = { () => <About />} />
+          <Route exact path = '/hinnasto' render = { () => <Prices />} />
+          <Route exact path = '/ennen' render = { () => <Before />} />
+          <Route exact path = '/historiaa' render = { () => <History />} />
+          <Route exact path = '/aiempaa' render = { () => <Past /> } />
+          <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
+        </div>
       </Router>
-
     </div>
   )
-
 };
 
 export default App;

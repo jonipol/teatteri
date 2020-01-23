@@ -3,6 +3,8 @@ import Col from 'react-bootstrap/Col';
 
 const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
 
+  //TODO: Color coding + visual representation of days that are in past
+
   const style = {
     paddingTop: 5,
     paddingBottom: 5,

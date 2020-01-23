@@ -3,7 +3,12 @@ import React from 'react';
 const Past = () => {
 
 
-  return(<div>Past</div>)
+  return(
+    <div>
+      <h1>Aiempaa ohjelmistoa</h1>
+      
+    </div>
+  );
 };
 
 export default Past;

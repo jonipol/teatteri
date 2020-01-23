@@ -13,16 +13,16 @@ const Menu = () => {
   // Kuvagallerialle parempaa näkyvyyttä, jos ei dropdown valikossa...?
   return (
     <div>
-      <Navbar bg='light' expand='md'>
+      <Navbar collapseOnSelect bg='light' expand='md'>
         <Navbar.Brand as={Link} to='/'>Ristin kesäteatteri</Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
             <Nav.Link as={Link} to='/'>Etusivu</Nav.Link>
             <Nav.Link as={Link} to='/sijainti'>Sijainti & yhteystiedot</Nav.Link>
             <Nav.Link as={Link} to='/hinnasto'>Hinnasto</Nav.Link>
             <Nav.Link as={Link} to='/ennen'>Ennen esitystä???</Nav.Link>
-            <NavDropdown title='Historiaa' id='basic-nav-dropdown'>
+            <NavDropdown title='Historiaa' id='collasible-nav-dropdown'>
               <NavDropdown.Item as={Link} to='/aiempaa'>Aiempaa ohjelmistoa</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/historiaa'>Teatterin historiaa</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/kuvagalleria'>Kuvagalleria?</NavDropdown.Item>
