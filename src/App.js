@@ -16,6 +16,9 @@ import {
 
 const App = (props) => {
 
+  // maxWidth reference:
+  // https://graphicdesign.stackexchange.com/questions/30731/what-width-should-i-design-for-when-creating-a-website
+
   // TODO: Set maximum width to div. Prevent super wide view on big monitors.
   // max-width?
   return (
@@ -23,7 +26,7 @@ const App = (props) => {
       <Router>
         <Menu />
         {/*<Notification /> */}
-        <div style={{width: '95%', margin: 'auto'}}>
+        <div style={{maxWidth: '960px', margin: 'auto'}}>
           <Route exact path = '/' render = { () => <Esitys /> } />
           <Route exact path = '/sijainti' render = { () => <About />} />
           <Route exact path = '/hinnasto' render = { () => <Prices />} />
