@@ -11,7 +11,7 @@ const History = () => {
       <div style={{width: '95%', margin: 'auto'}}>
         <img src={vanhaKuva} width='95%'/>
       </div>
-      <div style={{width: '90%'}}>
+      <div style={{width: '90%', margin: 'auto'}}>
         <p>Talo on rakennettu vuonna 1897 Liperin kunnan kolmanneksi kansakouluksi, Kaatamon kylän kouluksi. Koulutyö uudessa koulurakennuksessa aloitettiin 4. lokakuuta 1897. Rakennus on Liperin vanhin edelleen käytössä oleva puurakenteinen koulurakennus.</p>
         <p>Sodan aikana, syksystä 1940 alkaen, koululla oli sotilaita majoitettuina ja koulun pihalla oli kenttäkeittiöt, joilla sotilaille keitettiin ruokaa. Sodan aikana koululla pätkittiin puuta talkoilla pieniksi paloiksi puukaasuautoja varten. Pilkkeet pakattiin paperisäkkeihin ja tässä työssä olivat myös lapset mukana</p>
         <p>Kun siirtolaisia alkoi tulla, he tulivat ensin koululle, josta heidät sitten sijoitettiin kylän taloihin, opettaja-Maija (Rummukainen) hoiti siirtolaisten sijoittamista. Siirtolaiset joutuivat majoittumaan aluksi koululla, jossa he nukkuivat patjoilla ja laittoivat ruokaa veistoluokan liimankeittohellalla.</p>
