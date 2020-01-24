@@ -8,6 +8,7 @@ import Before from './components/Before';
 import History from './components/History';
 import Past from './components/Past';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ const App = (props) => {
           <Route exact path = '/historiaa' render = { () => <History />} />
           <Route exact path = '/aiempaa' render = { () => <Past /> } />
           <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
+          <Footer />
         </div>
       </Router>
     </div>
