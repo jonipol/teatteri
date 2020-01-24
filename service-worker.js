@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/teatteri/precache-manifest.f9bb250f74fad535f7744dd5cb06a46b.js"
+  "/teatteri/precache-manifest.f00eaf094ad64cc6865d39f61923c04c.js"
 );
 
 self.addEventListener('message', (event) => {
