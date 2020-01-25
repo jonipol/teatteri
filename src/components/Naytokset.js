@@ -32,13 +32,13 @@ const Naytokset = () => {
       <h2 style={{marginTop: 50, textAlign: 'center'}}>Esitysajat</h2>
       <Container>
         <Row className='row mt-3'>
-          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0 border-dark'>ma</Col>
-          <Col xs={2} align='center' style={showStyle} className='border border-top-0 border-left-0 border-dark'>TI</Col>
-          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0 border-dark'>ke</Col>
-          <Col xs={2} align='center' style={showStyle} className='border border-top-0 border-left-0 border-dark'>TO</Col>
-          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0 border-dark'>pe</Col>
-          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0 border-dark'>la</Col>
-          <Col xs={4} align='center' style={showStyle} className='border-bottom border-dark'>SU</Col>
+          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0'>ma</Col>
+          <Col xs={2} align='center' style={showStyle} className='border border-top-0 border-left-0'>TI</Col>
+          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0'>ke</Col>
+          <Col xs={2} align='center' style={showStyle} className='border border-top-0 border-left-0'>TO</Col>
+          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0'>pe</Col>
+          <Col xs={1} align='center' style={noShowStyle} className='border border-top-0 border-left-0'>la</Col>
+          <Col xs={4} align='center' style={showStyle} className='border-bottom'>SU</Col>
         </Row>
 
         <Row className='row'>

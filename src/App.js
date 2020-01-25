@@ -17,13 +17,18 @@ import {
 
 const App = (props) => {
 
+  const bgBlue = '#003D73';
+  const textBlue = '#1ECFD6';
+  const shadow = '#0878A4';
+  const orange = '#C05640';
+
   // maxWidth reference:
   // https://graphicdesign.stackexchange.com/questions/30731/what-width-should-i-design-for-when-creating-a-website
 
   // TODO: Set maximum width to div. Prevent super wide view on big monitors.
   // max-width?
   return (
-    <div>
+    <div style={{background: bgBlue , color: textBlue}}>
       <Router>
         <Menu />
         {/*<Notification /> */}

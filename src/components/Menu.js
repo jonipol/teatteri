@@ -13,7 +13,7 @@ const Menu = () => {
   // Kuvagallerialle parempaa näkyvyyttä, jos ei dropdown valikossa...?
   return (
     <div>
-      <Navbar collapseOnSelect bg='light' expand='md'>
+      <Navbar collapseOnSelect expand='md' style={{backgroundColor: '#C05640'}}>
         <Navbar.Brand as={Link} to='/'>Ristin kesäteatteri</Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>

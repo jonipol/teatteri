@@ -20,7 +20,11 @@ const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
 
   // TODO: Refactor to have only one return
   if (event2Time) {
-    return(<Col xs={4} align='center' style={style} className='border-bottom border-dark'>{text} {event1Time} {event2Time}</Col>);    
+    return(
+      <Col xs={4} align='center' style={style} className='border-bottom'>
+        {text} <br /> {event1Time} & {event2Time}
+      </Col>
+    );    
   }
 
   let xs = 2
@@ -28,7 +32,11 @@ const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
     xs = colWidth;
 
   if (event1Time) {
-    return(<Col xs={xs} align='center' style={style} className='border border-top-0 border-left-0 border-dark'>{text} {event1Time}</Col>);    
+    return(
+      <Col xs={xs} align='center' style={style} className='border border-top-0 border-left-0'>
+        {text} <br /> {event1Time}
+      </Col>
+    );    
   }
 
   if (colWidth)
@@ -36,7 +44,7 @@ const Naytos = ({ text, event1Time, event2Time, colWidth}) => {
   else
     xs = 1;
 
-  return(<Col xs={xs} align='center' style={style} className='border border-top-0 border-left-0 border-dark'>{text}</Col>);
+  return(<Col xs={xs} align='center' style={style} className='border border-top-0 border-left-0'>{text}</Col>);
 
 };
 
