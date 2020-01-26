@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Esitys from './components/Esitys';
+import Home from './components/Home';
 import Menu from './components/Menu';
-import About from './components/About';
+import Location from './components/Location';
 import Prices from './components/Prices';
 import Before from './components/Before';
 import History from './components/History';
@@ -28,8 +28,8 @@ const App = (props) => {
         <Menu />
         {/*<Notification /> */}
         <div style={{maxWidth: '960px', margin: 'auto'}}>
-          <Route exact path = '/' render = { () => <Esitys /> } />
-          <Route exact path = '/sijainti' render = { () => <About />} />
+          <Route exact path = '/' render = { () => <Home /> } />
+          <Route exact path = '/sijainti' render = { () => <Location />} />
           <Route exact path = '/hinnasto' render = { () => <Prices />} />
           <Route exact path = '/ennen' render = { () => <Before />} />
           <Route exact path = '/historiaa' render = { () => <History />} />
