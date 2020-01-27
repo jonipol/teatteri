@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 const Day = ({ text, event1Time, event2Time, colWidth, noBorder = false}) => {
 
   //TODO: Color coding + visual representation of days that are in past
-  //TODO: Font size for show/noshow days is at two points!
 
   const style = {
     paddingTop: 5,

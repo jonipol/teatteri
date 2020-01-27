@@ -58,33 +58,33 @@ const Calendar = () => {
     </Row>
 
     <Row className='row border-bottom border-dark'>
-      <Day text='6.7' noBorder='true'/>
-      <Day text='7.7' event1Time='19.00'/>
-      <Day text='8.7' />
-      <Day text='9.7' event1Time='19.00'/>
-      <Day text='10.7' />
-      <Day text='11.7' />
-      <Day text='12.7' event1Time='13.00' event2Time='19.00'/>
+      <Day text='13.7' noBorder='true'/>
+      <Day text='14.7' event1Time='19.00'/>
+      <Day text='15.7' />
+      <Day text='16.7' event1Time='19.00'/>
+      <Day text='17.7' />
+      <Day text='18.7' />
+      <Day text='19.7' event1Time='13.00' event2Time='19.00'/>
     </Row>
 
     <Row className='row border-bottom border-dark'>
-      <Day text='6.7' noBorder='true'/>
-      <Day text='7.7' event1Time='19.00'/>
-      <Day text='8.7' />
-      <Day text='9.7' event1Time='19.00'/>
-      <Day text='10.7' />
-      <Day text='11.7' />
-      <Day text='12.7' event1Time='13.00' event2Time='19.00'/>
+      <Day text='20.7' noBorder='true'/>
+      <Day text='21.7' event1Time='19.00'/>
+      <Day text='22.7' />
+      <Day text='23.7' event1Time='19.00'/>
+      <Day text='24.7' />
+      <Day text='25.7' />
+      <Day text='26.7' event1Time='13.00' event2Time='19.00'/>
     </Row>
 
     <Row className='row'>
-      <Day text='6.7' noBorder='true'/>
-      <Day text='7.7' event1Time='19.00'/>
-      <Day text='8.7' />
-      <Day text='9.7' event1Time='19.00'/>
-      <Day text='10.7' />
-      <Day text='11.7' />
-      <Day text='12.7' event1Time='13.00' event2Time='19.00'/>
+      <Day text='27.7' noBorder='true'/>
+      <Day text='28.7' event1Time='19.00'/>
+      <Day text='29.7' />
+      <Day text='30.7' event1Time='19.00'/>
+      <Day text='31.7' />
+      <Day text='1.8' />
+      <Day text='2.8' event1Time='13.00' event2Time='19.00'/>
     </Row>
   </Container>
   );
