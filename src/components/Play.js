@@ -4,7 +4,18 @@ import moment from 'moment';
 const Play = (props) => {
   const play = props.play;
   let style;
-
+  moment.locale('fi');
+  moment.updateLocale('en', {
+    weekdays: [
+      'Sunnuntai', 
+      'Maanantai', 
+      'Tiistai', 
+      'Keskiviikko',
+      'Torstai',
+      'Perjantai',
+      'Lauantai'
+    ]
+  });
   const difference = moment().diff(play.date, 'hours');
   console.log(difference);
 
@@ -16,9 +27,11 @@ const Play = (props) => {
   // style="text-decoration:line-through;"
 
   return(
-    <div style={style}>
-      {moment(play.date).format('dddd DD.MM. HH:mm')}{play.extra}
-    </div>
+    <tr style={style}>
+      <td>{moment(play.date).format('dddd')}</td>
+      <td>{moment(play.date).format('DD.MM. HH:mm')}</td>
+      <td>{play.extra}</td>
+    </tr>
   );
 };
 

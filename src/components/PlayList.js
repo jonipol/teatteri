@@ -1,20 +1,22 @@
 import React from 'react';
 import Play from './Play';
 
+import Table from 'react-bootstrap/Table';
+
 import json from '../naytokset.json';
 
 const PlayList = () => {
 
 
   return(
-    <div>
-      <ul style={{listStyle: 'none'}}>
-        {json.shows.map(play => (
-          <li>
-            {<Play play={play} />}
-          </li>
-        ))}
-      </ul>
+    <div style={{alignItems: 'center', textAlign: 'center', }}>
+      <Table borderless hover >
+        <tbody>
+          {json.shows.map((play) => (
+            <Play play={play} />
+          ))}
+        </tbody>
+      </Table>
     </div>
   );
 };
