@@ -15,7 +15,7 @@ const Footer = () => {
         <a 
           href='https://www.facebook.com/ristin.kesateatteri' 
           target='_blank' 
-          rel='noopener'
+          rel='noopener noreferrer'
           style={{fontSize: '1.3em'}}>
             <img src={fbLogo} style={{width: '2em', height: '2em'}}/>Teatterin facebook sivuille
         </a>
