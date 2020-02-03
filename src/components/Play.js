@@ -1,36 +1,37 @@
 import React from 'react';
 import moment from 'moment';
+import '../timeTable.css';
+
 
 const Play = (props) => {
   const play = props.play;
-  let style;
-  moment.locale('fi');
-  moment.updateLocale('en', {
-    weekdays: [
-      'Sunnuntai', 
-      'Maanantai', 
-      'Tiistai', 
-      'Keskiviikko',
-      'Torstai',
-      'Perjantai',
-      'Lauantai'
-    ]
-  });
+  let style = {fontSize: '1em'};
+
   const difference = moment().diff(play.date, 'hours');
-  console.log(difference);
 
   // If difference is positive -> date is in past
   if (difference > 0) {
-    style = {textDecoration: 'line-through'};
+    style.textDecoration = 'line-through';
+    style.textDecorationColor = 'red';
+    // solid|double|dotted|dashed|wavy|initial|inherit
+    style.textDecorationStyle = 'wavy';
   }
-  
-  // style="text-decoration:line-through;"
+
+  const time = moment(play.date);
+
+  if (props.check) {
+    return(
+      <tr style={style} >
+        <td className='timeTableLeft'>{time.format('dddd')}</td>
+        <td className='timeTableCenter'>{time.format('DD.MM. [klo:] HH:mm')}</td> 
+        <td className='timeTableRight'>{play.extra}</td>
+      </tr>
+    )
+  }
 
   return(
-    <tr style={style}>
-      <td>{moment(play.date).format('dddd')}</td>
-      <td>{moment(play.date).format('DD.MM. HH:mm')}</td>
-      <td>{play.extra}</td>
+    <tr style={style} >
+      <td>{`${time.format('dddd')} ${time.format('DD.MM.')} klo: ${time.format('HH:mm')}`}</td>
     </tr>
   );
 };
