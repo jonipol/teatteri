@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/teatteri/static/css/main.68742314.chunk.css",
-    "main.js": "/teatteri/static/js/main.4c038818.chunk.js",
-    "main.js.map": "/teatteri/static/js/main.4c038818.chunk.js.map",
+    "main.css": "/teatteri/static/css/main.b504bb0a.chunk.css",
+    "main.js": "/teatteri/static/js/main.37da00c9.chunk.js",
+    "main.js.map": "/teatteri/static/js/main.37da00c9.chunk.js.map",
     "runtime-main.js": "/teatteri/static/js/runtime-main.2a53405a.js",
     "runtime-main.js.map": "/teatteri/static/js/runtime-main.2a53405a.js.map",
-    "static/js/2.cb7c1472.chunk.js": "/teatteri/static/js/2.cb7c1472.chunk.js",
-    "static/js/2.cb7c1472.chunk.js.map": "/teatteri/static/js/2.cb7c1472.chunk.js.map",
+    "static/js/2.7f8a6dc6.chunk.js": "/teatteri/static/js/2.7f8a6dc6.chunk.js",
+    "static/js/2.7f8a6dc6.chunk.js.map": "/teatteri/static/js/2.7f8a6dc6.chunk.js.map",
     "index.html": "/teatteri/index.html",
-    "precache-manifest.dda839d34e02a7b46709dc5bb32370d7.js": "/teatteri/precache-manifest.dda839d34e02a7b46709dc5bb32370d7.js",
+    "precache-manifest.3394232377263b8de518663cdc2a3403.js": "/teatteri/precache-manifest.3394232377263b8de518663cdc2a3403.js",
     "service-worker.js": "/teatteri/service-worker.js",
-    "static/css/main.68742314.chunk.css.map": "/teatteri/static/css/main.68742314.chunk.css.map",
-    "static/js/2.cb7c1472.chunk.js.LICENSE": "/teatteri/static/js/2.cb7c1472.chunk.js.LICENSE",
+    "static/css/main.b504bb0a.chunk.css.map": "/teatteri/static/css/main.b504bb0a.chunk.css.map",
+    "static/js/2.7f8a6dc6.chunk.js.LICENSE": "/teatteri/static/js/2.7f8a6dc6.chunk.js.LICENSE",
     "static/media/example.jpg": "/teatteri/static/media/example.d698dd1e.jpg",
     "static/media/ristinkoulu.jpg": "/teatteri/static/media/ristinkoulu.92321353.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2a53405a.js",
-    "static/js/2.cb7c1472.chunk.js",
-    "static/css/main.68742314.chunk.css",
-    "static/js/main.4c038818.chunk.js"
+    "static/js/2.7f8a6dc6.chunk.js",
+    "static/css/main.b504bb0a.chunk.css",
+    "static/js/main.37da00c9.chunk.js"
   ]
 }
