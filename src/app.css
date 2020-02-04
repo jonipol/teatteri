@@ -1,0 +1,22 @@
+.mainDiv {
+  width: 65%;
+  float: left;
+}
+
+.fbDiv {
+  width: 35%;
+  float: left;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+  .mainDiv {
+    width: 100%;
+  }
+
+  .fbDiv {
+    width: 100%;
+  }
+}
