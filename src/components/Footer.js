@@ -1,8 +1,13 @@
 import React from 'react';
+import Tooltip from 'react-tooltip-lite';
 
 import fbLogo from '../img/fbLogo.png';
+import liperiLogo from '../img/liperi.png';
 
 const Footer = () => {
+  const tooltipBgColor = 'black';
+  const tooltipTextColor = 'white';
+
 
   return(
     <div className='footer' style={{paddingTop: '2vh', paddingBottom: '3vh', textAlign: 'center'}}>
@@ -11,19 +16,46 @@ const Footer = () => {
         puh. 040 703 7478 <br />
         Ristinkyläntie 1, Liperi
       </p>
-      <div style={{marginTop: '1vh', textAlign: 'center'}}>
-        <a 
-          href='https://www.facebook.com/ristin.kesateatteri' 
-          target='_blank' 
-          rel='noopener noreferrer'
-          style={{fontSize: '1.3em'}}>
-            <img 
-              src={fbLogo}
-              style={{width: '2em', height: '2em'}}
-              alt='fb-logo' 
-            />
-            Teatterin facebook sivuille
-        </a>
+      <div style={{marginTop: '1vh', textAlign: 'right', width: '50%', float: 'left'}}>
+        <Tooltip 
+          content = 'Teatterin facebook sivuille'
+          background = {tooltipBgColor}
+          color = {tooltipTextColor}
+        >
+          <a 
+            href = 'https://www.facebook.com/ristin.kesateatteri' 
+            target = '_blank' 
+            rel = 'noopener noreferrer'
+            style = { {fontSize: '1.3em'} }
+            >
+              <img 
+                src = {fbLogo}
+                style = { {width: '2em', height: '2em'} }
+                alt = 'fb-logo'
+              />
+              Teatterin fb-sivuille
+          </a>
+        </Tooltip>
+        </div>
+        <div style={{ width: '50%', float: 'left'}}>
+        <Tooltip
+          content = 'Liperin kotisivuille?????'
+          background = {tooltipBgColor}
+          color = {tooltipTextColor}
+        >
+          <a
+            href = 'https://www.liperi.fi'
+            target = '_blank'
+            rel = 'noopener noreferrer'
+            style = { {fontSize: '1.3em'} }
+            >
+              <img
+                src = {liperiLogo}
+                style = { {width: 'auto', height: '2em'} }
+                alt = 'Liperi'
+              />
+            </a>
+        </Tooltip>
       </div>
     </div>
   );
