@@ -1,5 +1,7 @@
 import React from 'react';
 import moment from 'moment';
+import { FacebookProvider, Page } from 'react-facebook';
+import './app.css';
 
 import Home from './components/Home';
 import Menu from './components/Menu';
@@ -35,21 +37,33 @@ const App = (props) => {
   // maxWidth reference:
   // https://graphicdesign.stackexchange.com/questions/30731/what-width-should-i-design-for-when-creating-a-website
 
-  // TODO: Set maximum width to div. Prevent super wide view on big monitors.
-  // max-width?
+  // TODO: Facebook AppId + height
   return (
     <div>
       <Router>
         <Menu />
-        {/*<Notification /> */}
         <div style={{maxWidth: '960px', margin: 'auto'}}>
-          <Route exact path = '/' render = { () => <Home /> } />
-          <Route exact path = '/sijainti' render = { () => <Location />} />
-          <Route exact path = '/hinnasto' render = { () => <Prices />} />
-          <Route exact path = '/ennen' render = { () => <Before />} />
-          <Route exact path = '/historiaa' render = { () => <History />} />
-          <Route exact path = '/aiempaa' render = { () => <Past /> } />
-          <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
+          <div className='mainDiv'>
+            <Route exact path = '/' render = { () => <Home /> } />
+            <Route exact path = '/sijainti' render = { () => <Location />} />
+            <Route exact path = '/hinnasto' render = { () => <Prices />} />
+            <Route exact path = '/ennen' render = { () => <Before />} />
+            <Route exact path = '/historiaa' render = { () => <History />} />
+            <Route exact path = '/aiempaa' render = { () => <Past /> } />
+            <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
+           
+          </div>
+          <div className='fbDiv'>
+            <FacebookProvider appId='1062617860758006'>
+              <Page 
+                href='https://www.facebook.com/ristin.kesateatteri' 
+                tabs='timeline'
+                  
+              />
+            </FacebookProvider>
+          </div>
+        </div>
+        <div style={{clear: 'left'}}>
           <Footer />
         </div>
       </Router>
