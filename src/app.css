@@ -15,10 +15,8 @@
   background-color: lightcyan;
 }
 
-past {
-  -webkit-columns: 2, 150px;
-  -moz-columns: 2, 150px;
-  columns: 2, 150px;
+li {
+  margin: 5px;
 }
 
 @media screen and (max-width: 600px) {
