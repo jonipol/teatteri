@@ -55,7 +55,11 @@ const App = (props) => {
           </div>
           <div className='fbDiv'>
             <FacebookProvider appId='1062617860758006'>
-              <Page href='https://www.facebook.com/ristin.kesateatteri' tabs='timeline' height='600px'/>
+              <Page 
+                href='https://www.facebook.com/ristin.kesateatteri' 
+                tabs='timeline'
+                  
+              />
             </FacebookProvider>
           </div>
         </div>
