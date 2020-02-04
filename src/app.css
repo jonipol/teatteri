@@ -15,6 +15,12 @@
   background-color: lightcyan;
 }
 
+past {
+  -webkit-columns: 2, 150px;
+  -moz-columns: 2, 150px;
+  columns: 2, 150px;
+}
+
 @media screen and (max-width: 600px) {
   .mainDiv {
     width: 100%;

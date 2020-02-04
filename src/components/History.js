@@ -9,7 +9,7 @@ const History = () => {
   return(
     <div>
       <div style={{width: '95%', margin: 'auto'}}>
-        <img src={vanhaKuva} width='95%'/>
+        <img src={vanhaKuva} width='95%' alt='Ristin koulu vuonna 19xx'/>
       </div>
       <div style={{width: '90%', margin: 'auto'}}>
         <p>Talo on rakennettu vuonna 1897 Liperin kunnan kolmanneksi kansakouluksi, Kaatamon kylän kouluksi. Koulutyö uudessa koulurakennuksessa aloitettiin 4. lokakuuta 1897. Rakennus on Liperin vanhin edelleen käytössä oleva puurakenteinen koulurakennus.</p>
@@ -23,7 +23,7 @@ const History = () => {
       </div>
       <div style={{width: '95%', margin: 'auto'}}>
         <h4 style={{color: 'red'}}>tuore kuva koulusta samasta kuvakulmasta?</h4>
-        <img src={vanhaKuva} width='95%'/>
+        <img src={vanhaKuva} width='95%' alt='Teatteritalo vuonna 2020'/>
       </div>
     </div>
   );

@@ -6,20 +6,10 @@ const Past = () => {
     listStyleType: 'none',
   };
 
-  const column = {
-    textAlign: 'left',
-    display: 'table',
-  };
-
-  const leftColumn = {
-    float: 'left',
-  };
-
   return(
-    <div style={{margin: 'auto'}}>
-      <h1>Aiempaa ohjelmistoa</h1>
+    <div style={{margin: 'auto',}}>
+      <h1 style={{textAlign: 'center'}}>Aiempaa ohjelmistoa</h1>
       <div>
-      <div style={column, leftColumn}>
         <ul style={listStyle}>
           <li>2019 Ei meidän Maija!</li>
           <li>2018 Remontti</li>
@@ -45,10 +35,6 @@ const Past = () => {
           <li>1998 Isä Camillon kylä</li>
           <li>1997 Kätkäläisen jättipotti</li>
           <li>1996 Rakas lotta</li>
-        </ul>
-      </div>
-      <div style={column}>
-        <ul style={listStyle}>
           <li>1995 Kätkäläinen</li>
           <li>1994 Kun ruusut kukkivat</li>
           <li>1993 Vetovoima eli vetovaimo</li>
@@ -74,7 +60,6 @@ const Past = () => {
           <li>1974 Ikiliikkuja</li>
           <li><nobr>1973 Rakkaus on nopeampi Piiroisen pässiä</nobr></li>
         </ul>
-      </div>
       </div>
     </div>
   );
