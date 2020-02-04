@@ -11,6 +11,10 @@
   padding-bottom: 3vh;
 }
 
+.footer {
+  background-color: lightcyan;
+}
+
 @media screen and (max-width: 600px) {
   .mainDiv {
     width: 100%;
