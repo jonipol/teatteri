@@ -1,0 +1,28 @@
+.timeTable {
+  width: 75%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 450px) {
+  .timeTable {
+    width: 95%;
+  }
+}
+
+.timeTable tr:hover {
+  background-color: #b4afaf;
+}
+
+
+.timeTableLeft {
+  text-align: right;
+}
+
+.timeTableRight {
+  text-align: left;
+  
+}
+
+.timeTableCenter {
+  font-weight: bold;
+}

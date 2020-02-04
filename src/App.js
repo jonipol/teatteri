@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 import Home from './components/Home';
 import Menu from './components/Menu';
@@ -16,6 +17,20 @@ import {
 } from 'react-router-dom';
 
 const App = (props) => {
+
+  // Setup locale for weekdays
+  moment.locale('fi');
+  moment.updateLocale('fi', {
+    weekdays: [
+      'Sunnuntai', 
+      'Maanantai', 
+      'Tiistai', 
+      'Keskiviikko',
+      'Torstai',
+      'Perjantai',
+      'Lauantai'
+    ]
+  });
 
   // maxWidth reference:
   // https://graphicdesign.stackexchange.com/questions/30731/what-width-should-i-design-for-when-creating-a-website
