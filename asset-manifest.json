@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/teatteri/static/css/main.18857eb8.chunk.css",
-    "main.js": "/teatteri/static/js/main.69653e62.chunk.js",
-    "main.js.map": "/teatteri/static/js/main.69653e62.chunk.js.map",
+    "main.js": "/teatteri/static/js/main.2a5a9e67.chunk.js",
+    "main.js.map": "/teatteri/static/js/main.2a5a9e67.chunk.js.map",
     "runtime-main.js": "/teatteri/static/js/runtime-main.2a53405a.js",
     "runtime-main.js.map": "/teatteri/static/js/runtime-main.2a53405a.js.map",
     "static/js/2.2a45e860.chunk.js": "/teatteri/static/js/2.2a45e860.chunk.js",
     "static/js/2.2a45e860.chunk.js.map": "/teatteri/static/js/2.2a45e860.chunk.js.map",
     "index.html": "/teatteri/index.html",
-    "precache-manifest.78e76072e5a3a8147c0541b5a1fbc439.js": "/teatteri/precache-manifest.78e76072e5a3a8147c0541b5a1fbc439.js",
+    "precache-manifest.4118a676b0e991017597a153fe429a16.js": "/teatteri/precache-manifest.4118a676b0e991017597a153fe429a16.js",
     "service-worker.js": "/teatteri/service-worker.js",
     "static/css/main.18857eb8.chunk.css.map": "/teatteri/static/css/main.18857eb8.chunk.css.map",
     "static/js/2.2a45e860.chunk.js.LICENSE": "/teatteri/static/js/2.2a45e860.chunk.js.LICENSE",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.2a53405a.js",
     "static/js/2.2a45e860.chunk.js",
     "static/css/main.18857eb8.chunk.css",
-    "static/js/main.69653e62.chunk.js"
+    "static/js/main.2a5a9e67.chunk.js"
   ]
 }
