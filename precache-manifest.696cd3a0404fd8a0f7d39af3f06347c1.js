@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52ef7e053e178794594e858d195f2169",
+    "revision": "3a94ae9f3e19cc112f64f557b53e6d30",
     "url": "/teatteri/index.html"
   },
   {
-    "revision": "e68e81f94b8b0b9165d3",
-    "url": "/teatteri/static/css/main.18857eb8.chunk.css"
+    "revision": "3d135b9ae43a9c442b2d",
+    "url": "/teatteri/static/css/main.0a2d2c3b.chunk.css"
   },
   {
     "revision": "85e58871b66295f2fae5",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teatteri/static/js/2.2a45e860.chunk.js.LICENSE"
   },
   {
-    "revision": "e68e81f94b8b0b9165d3",
-    "url": "/teatteri/static/js/main.2a5a9e67.chunk.js"
+    "revision": "3d135b9ae43a9c442b2d",
+    "url": "/teatteri/static/js/main.93b6f4c1.chunk.js"
   },
   {
     "revision": "af3706214396c5f9549b",
