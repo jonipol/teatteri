@@ -10,13 +10,13 @@ const Footer = () => {
 
 
   return(
-    <div className='footer' style={{paddingTop: '2vh', paddingBottom: '3vh', textAlign: 'center'}}>
+    <div className='footer' style={{paddingTop: '2vh', paddingBottom: '2vh', textAlign: 'center'}}>
       <p style={{fontSize: '1.25em', fontWeight: 'bold'}}>
         Tiedustelut ja ryhmävaraukset <br /> 
         puh. 040 703 7478 <br />
         Ristinkyläntie 1, Liperi
       </p>
-      <div style={{marginTop: '1vh', textAlign: 'right', width: '50%', float: 'left'}}>
+      <div style={{textAlign: 'right', width: '50%', float: 'left', backgroundColor: 'inherit'}}>
         <Tooltip 
           content = 'Teatterin facebook sivuille'
           background = {tooltipBgColor}
@@ -36,8 +36,8 @@ const Footer = () => {
               Teatterin fb-sivuille
           </a>
         </Tooltip>
-        </div>
-        <div style={{ width: '50%', float: 'left'}}>
+      </div>
+      <div style={{ width: '50%', float: 'left', backgroundColor: 'inherit'}}>
         <Tooltip
           content = 'Liperin kotisivuille?????'
           background = {tooltipBgColor}
