@@ -1,6 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-import { FacebookProvider, Page } from 'react-facebook';
 import './app.css';
 
 import Home from './components/Home';
@@ -12,6 +11,7 @@ import History from './components/History';
 import Past from './components/Past';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+import Facebook from './components/Facebook';
 
 import {
   BrowserRouter as Router,
@@ -39,10 +39,10 @@ const App = (props) => {
 
   // TODO: Facebook AppId + height
   return (
-    <div>
+    <div style = { {height: '100%'} }>
       <Router>
         <Menu />
-        <div style={{maxWidth: '960px', margin: 'auto'}}>
+        <div style={{maxWidth: '960px', margin: 'auto', paddingTop: '1vh'}}>
           <div className='mainDiv'>
             <Route exact path = '/' render = { () => <Home /> } />
             <Route exact path = '/sijainti' render = { () => <Location />} />
@@ -54,13 +54,7 @@ const App = (props) => {
            
           </div>
           <div className='fbDiv'>
-            <FacebookProvider appId='1062617860758006'>
-              <Page 
-                href='https://www.facebook.com/ristin.kesateatteri' 
-                tabs='timeline'
-                  
-              />
-            </FacebookProvider>
+            <Facebook />
           </div>
         </div>
         <div style={{clear: 'left'}}>

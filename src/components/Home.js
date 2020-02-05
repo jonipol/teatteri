@@ -12,7 +12,7 @@ const Home = () => {
   };
   
   return (
-    <div style={{paddingTop: '1vh'}}>
+    <div>
       <News />
       <div style={{textAlign: "right"}}>
         Näytä kalenteri
