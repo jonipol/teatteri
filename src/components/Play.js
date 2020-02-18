@@ -20,10 +20,8 @@ const Play = (props) => {
 
   const time = moment(play.date);
   const dayOfWeek = time.format('d');
-  console.log(dayOfWeek);
   if (dayOfWeek === '0') {
     dayStyle.color = 'red';
-    console.log(dayStyle);
   }
 
   return(
