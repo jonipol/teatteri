@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/teatteri/static/css/main.c65093a6.chunk.css",
-    "main.js": "/teatteri/static/js/main.878199c2.chunk.js",
-    "main.js.map": "/teatteri/static/js/main.878199c2.chunk.js.map",
+    "main.js": "/teatteri/static/js/main.fd52f7d0.chunk.js",
+    "main.js.map": "/teatteri/static/js/main.fd52f7d0.chunk.js.map",
     "runtime-main.js": "/teatteri/static/js/runtime-main.2a53405a.js",
     "runtime-main.js.map": "/teatteri/static/js/runtime-main.2a53405a.js.map",
-    "static/js/2.50cb6a8a.chunk.js": "/teatteri/static/js/2.50cb6a8a.chunk.js",
-    "static/js/2.50cb6a8a.chunk.js.map": "/teatteri/static/js/2.50cb6a8a.chunk.js.map",
+    "static/js/2.24bdfd33.chunk.js": "/teatteri/static/js/2.24bdfd33.chunk.js",
+    "static/js/2.24bdfd33.chunk.js.map": "/teatteri/static/js/2.24bdfd33.chunk.js.map",
     "index.html": "/teatteri/index.html",
-    "precache-manifest.41e0a2987eea0ee2f153d7843f2a605a.js": "/teatteri/precache-manifest.41e0a2987eea0ee2f153d7843f2a605a.js",
+    "precache-manifest.f61465bdf128f365755ead4ce000a05b.js": "/teatteri/precache-manifest.f61465bdf128f365755ead4ce000a05b.js",
     "service-worker.js": "/teatteri/service-worker.js",
     "static/css/main.c65093a6.chunk.css.map": "/teatteri/static/css/main.c65093a6.chunk.css.map",
-    "static/js/2.50cb6a8a.chunk.js.LICENSE": "/teatteri/static/js/2.50cb6a8a.chunk.js.LICENSE",
+    "static/js/2.24bdfd33.chunk.js.LICENSE": "/teatteri/static/js/2.24bdfd33.chunk.js.LICENSE",
     "static/media/example.jpg": "/teatteri/static/media/example.d698dd1e.jpg",
     "static/media/liperi.png": "/teatteri/static/media/liperi.86834c3d.png",
     "static/media/ristinkoulu.jpg": "/teatteri/static/media/ristinkoulu.92321353.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2a53405a.js",
-    "static/js/2.50cb6a8a.chunk.js",
+    "static/js/2.24bdfd33.chunk.js",
     "static/css/main.c65093a6.chunk.css",
-    "static/js/main.878199c2.chunk.js"
+    "static/js/main.fd52f7d0.chunk.js"
   ]
 }
