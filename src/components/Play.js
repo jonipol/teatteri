@@ -6,6 +6,7 @@ import '../timeTable.css';
 const Play = (props) => {
   const play = props.play;
   let style = {fontSize: '1em'};
+  let dayStyle = {};
 
   const difference = moment().diff(play.date, 'hours');
 
@@ -14,24 +15,24 @@ const Play = (props) => {
     style.textDecoration = 'line-through';
     style.textDecorationColor = 'red';
     // solid|double|dotted|dashed|wavy|initial|inherit
-    style.textDecorationStyle = 'wavy';
+    style.textDecorationStyle = 'solid';
   }
 
   const time = moment(play.date);
-
-  if (props.check) {
-    return(
-      <tr style={style} >
-        <td className='timeTableLeft'>{time.format('dddd')}</td>
-        <td className='timeTableCenter'>{time.format('DD.MM. [klo:] HH:mm')}</td> 
-        <td className='timeTableRight'>{play.extra}</td>
-      </tr>
-    )
+  const dayOfWeek = time.format('d');
+  console.log(dayOfWeek);
+  if (dayOfWeek === '0') {
+    dayStyle.color = 'red';
+    console.log(dayStyle);
   }
 
   return(
-    <tr style={style} >
-      <td>{`${time.format('dddd')} ${time.format('DD.MM.')} klo: ${time.format('HH:mm')}`}</td>
+    <tr style={style}>
+      <td>
+        <span style={dayStyle}>{`${time.format('dddd')} `}</span>
+        <span style={ {fontWeight: 'bold'} }>{`${time.format('DD.MM.')} `}</span> 
+        {`klo: ${time.format('HH:mm')} ${play.extra}`}
+      </td>
     </tr>
   );
 };

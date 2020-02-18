@@ -7,7 +7,7 @@ const About = () => {
   const zoom = 11;
   
   return(
-    <div style = { {position: 'relative', textAlign: 'right', height: {height}, width: {width}} }>
+    <div style = { {position: 'relative', textAlign: 'center', height: {height}, width: {width}} }>
       <div style = { {overflow: 'hidden', background: 'none!important', height: {height}, width: {width}} }>
         <iframe 
           width={width}
