@@ -11,14 +11,6 @@
   padding-bottom: 3vh;
 }
 
-.footer {
-  background-color: lightcyan;
-}
-
-.before li {
-  margin: 5px;
-}
-
 @media screen and (max-width: 600px) {
   .mainDiv {
     width: 100%;
@@ -27,4 +19,12 @@
   .fbDiv {
     width: 95%;
   }
+}
+
+.footer {
+  background-color: lightcyan;
+}
+
+.before li {
+  margin: 5px;
 }
