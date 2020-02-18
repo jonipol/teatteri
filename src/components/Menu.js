@@ -13,19 +13,17 @@ const Menu = () => {
     setNavExpanded(navExpanded ? false : 'expanded');
   };
 
-  const paddingStyle = {paddingRight: '2em'};
-
   return (
     <div>
       <Navbar collapseOnSelect bg='light' expand='md' expanded={navExpanded}>
         <Navbar.Brand as={Link} to='/'>Ristin kesäteatteri</Navbar.Brand>
         <Navbar.Toggle onClick={toggleNav}/>
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='mr-auto' onSelect={toggleNav} style={{fontSize: '1.15em', marginLeft: 'auto'}}>
-            <Nav.Link as={Link} to='/' onClick={toggleNav} style={paddingStyle}>Etusivu</Nav.Link>
-            <Nav.Link as={Link} to='/sijainti' onClick={toggleNav} style={paddingStyle}>Sijainti & yhteystiedot</Nav.Link>
-            <Nav.Link as={Link} to='/hinnasto' onClick={toggleNav} style={paddingStyle}>Hinnasto</Nav.Link>
-            <Nav.Link as={Link} to='/ennen' onClick={toggleNav} style={paddingStyle}> Ennen esitystä???</Nav.Link>
+          <Nav className='justify-content-center' onSelect={toggleNav} style={{fontSize: '1.15em'} }>
+            <Nav.Link as={Link} to='/' onClick={toggleNav}>Etusivu</Nav.Link>
+            <Nav.Link as={Link} to='/sijainti' onClick={toggleNav}>Sijainti & yhteystiedot</Nav.Link>
+            <Nav.Link as={Link} to='/hinnasto' onClick={toggleNav}>Hinnasto</Nav.Link>
+            <Nav.Link as={Link} to='/ennen' onClick={toggleNav}> Ennen esitystä???</Nav.Link>
             <NavDropdown title='Historiaa' id='collasible-nav-dropdown' >
               <NavDropdown.Item as={Link} to='/aiempaa' onClick={toggleNav}>Aiempaa ohjelmistoa</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/historiaa' onClick={toggleNav}>Teatterin historiaa</NavDropdown.Item>
