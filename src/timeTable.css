@@ -1,6 +1,7 @@
 .timeTable {
   width: 75%;
   margin: auto;
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 450px) {
@@ -11,18 +12,4 @@
 
 .timeTable tr:hover {
   background-color: #b4afaf;
-}
-
-
-.timeTableLeft {
-  text-align: right;
-}
-
-.timeTableRight {
-  text-align: left;
-  
-}
-
-.timeTableCenter {
-  font-weight: bold;
 }

@@ -22,7 +22,7 @@ const App = (props) => {
 
   // Setup locale for weekdays
   moment.locale('fi');
-  moment.updateLocale('fi', {
+ /*  moment.updateLocale('fi', {
     weekdays: [
       'Sunnuntai', 
       'Maanantai', 
@@ -31,6 +31,17 @@ const App = (props) => {
       'Torstai',
       'Perjantai',
       'Lauantai'
+    ]
+  }); */
+  moment.updateLocale('fi', {
+    weekdays: [
+      'Su', 
+      'Ma', 
+      'Ti', 
+      'Ke',
+      'To',
+      'Pe',
+      'La'
     ]
   });
 
