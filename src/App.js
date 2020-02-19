@@ -50,7 +50,7 @@ const App = (props) => {
 
   // TODO: Facebook AppId + height
   return (
-    <div style = { {height: '100%'} }>
+    <div>
       <Router>
         <Menu />
         <div style={{maxWidth: '960px', margin: 'auto', paddingTop: '1vh'}}>
@@ -68,7 +68,7 @@ const App = (props) => {
             <Facebook />
           </div>
         </div>
-        <div style={{clear: 'left'}}>
+        <div style={{clear: 'both'}}>
           <Footer />
         </div>
       </Router>
