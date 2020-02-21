@@ -1,33 +1,51 @@
-.mainDiv {
-  width: 65%;
-  float: left;
-  margin-bottom: 2vh;
+html, body {
+  height: 100%;
 }
 
-.fbDiv {
+#container {
+  min-height: 100vh;
+}
+
+#content-wrap {
+  max-width: 960px;
+  margin: auto;
+  padding-top: 1vh;
+  overflow: auto;
+  padding-bottom: 200px;
+}
+
+#mainDiv {
+  width: 65%;
+  float: left;
+}
+
+#fbDiv {
   width: 35%;
   float: left;
   text-align: center;
-  padding-bottom: 3vh;
+}
+
+#footer {
+  background-color: lightcyan;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-top: -200px;
+  clear: both;
 }
 
 @media screen and (max-width: 600px) {
-  .mainDiv {
+  #mainDiv {
     width: 100%;
   }
 
-  .fbDiv {
+  #fbDiv {
     width: 95%;
   }
 }
 
-.footer {
-  background-color: lightcyan;
-  position: sticky;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
+
 
 .before li {
   margin: 5px;

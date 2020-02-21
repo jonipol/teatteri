@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const Location = () => {
 
   const width = '95%';
   const height = '500px';
@@ -24,4 +24,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Location;
