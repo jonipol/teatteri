@@ -7,8 +7,8 @@ const Prices = () => {
 
 
   return(
-    <div>
-      <h1 style={{marginBottom: 25}}>Hinnasto</h1>
+    <div style={{padding: '2vw'}}>
+      <h1>Hinnasto</h1>
       <Table hover style={{marginTop: 50}}>
         <thead>
           <tr>
@@ -50,8 +50,8 @@ const Prices = () => {
           </tr>
         </tbody>
       </Table>
-      <p style={{color: 'red', fontSize: '1.5em'}}>Ryhmien matkanjohtaja ja linja-autonkuljettaja ilmaiseksi</p>
-      
+      <p style={{color: 'red', fontSize: '1.5em', textAlign: 'center'}}>Ryhmien matkanjohtaja ja linja-autonkuljettaja ilmaiseksi</p>
+      <p style={{fontSize: '1.25em', textAlign: 'center'}}>Lipunmyynti aloitetaan tunti ennen esityksen alkua</p>
 
     </div>
   );

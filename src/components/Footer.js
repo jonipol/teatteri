@@ -10,7 +10,7 @@ const Footer = () => {
 
 
   return(
-    <div className='footer' style={{paddingTop: '2vh', paddingBottom: '2vh', textAlign: 'center'}}>
+    <footer id='footer'>
       <p style={{fontSize: '1.25em', fontWeight: 'bold'}}>
         Tiedustelut ja ryhmävaraukset <br /> 
         puh. 040 703 7478 <br />
@@ -57,7 +57,7 @@ const Footer = () => {
             </a>
         </Tooltip>
       </div>
-    </div>
+    </footer>
   );
 };
 
