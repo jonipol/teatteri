@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 
 import '../app.css';
 
-// Styling
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
 const Menu = () => {
   const [navExpanded, setNavExpanded] = useState(false);
 
@@ -17,7 +12,37 @@ const Menu = () => {
 
   return (
     <header>
-      <Navbar collapseOnSelect bg='light' expand='md' expanded={navExpanded}>
+      <nav class='navbar'>
+        
+        <ul class='navbar-nav'>
+          <li class='nav-item'>
+            <Link to='/'>Ristin kesäteatteri</Link>
+          </li>
+          <li class='nav-item'>
+            <Link to='/' onClick={toggleNav}>Etusivu</Link>
+          </li>
+
+          <li class='nav-item'>
+            <Link to='/sijainti' onClick={toggleNav}>Sijainti & yhteystiedot</Link>
+          </li>
+
+          <li class='nav-item'>
+            <Link to='/hinnasto' onClick={toggleNav}>Hinnasto</Link>
+          </li>
+
+          <li class='nav-item'>
+            <Link to='/ennen' onClick={toggleNav}> Ennen esitystä???</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
+
+export default Menu;
+
+/*
+<Navbar collapseOnSelect bg='light' expand='md' expanded={navExpanded}>
         <Navbar.Brand as={Link} to='/'>Ristin kesäteatteri</Navbar.Brand>
         <Navbar.Toggle onClick={toggleNav}/>
         <Navbar.Collapse id='responsive-navbar-nav'>
@@ -34,8 +59,4 @@ const Menu = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </header>
-  );
-};
-
-export default Menu;
+*/

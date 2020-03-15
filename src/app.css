@@ -2,7 +2,22 @@ html, body {
   height: 100%;
 }
 
+:root {
+--header-height: 4.5rem;
+}
 
+
+body::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #924f7c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #28c528;
+}
 
 
 .before li {
@@ -16,12 +31,12 @@ main {
       "mid"
       "footer";
 
-  
+  row-gap: 1rem;
 }
 
 header {
   grid-area: navbar;
-
+  height: var(--header-height);
 }
 
 section {
@@ -46,4 +61,47 @@ aside {
 
 footer {
   grid-area: footer;
+}
+
+
+
+/*****************/
+/*** NAVBAR ******/
+/*****************/
+
+.navbar {
+  position: fixed;
+  background-color: rgb(51, 243, 153);
+}
+
+.navbar-nav {
+  max-width: 960px;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  background-color: mintcream;
+}
+
+.nav-item {
+  border: 1px dotted red
+}
+
+.nav-item:first-child {
+  padding-inline-end: 7%;
+}
+
+.logo {
+  margin:0
+}
+
+/* Big screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    height: var(--header-height);
+    width: 100vw;
+  }
 }
