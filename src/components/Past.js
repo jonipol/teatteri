@@ -7,7 +7,7 @@ const Past = () => {
   };
 
   return(
-    <div style={{margin: 'auto',}}>
+    <article style={{margin: 'auto',}}>
       <h1 style={{textAlign: 'center'}}>Aiempaa ohjelmistoa</h1>
       <div>
         <ul style={listStyle}>
@@ -61,7 +61,7 @@ const Past = () => {
           <li><nobr>1973 Rakkaus on nopeampi Piiroisen pässiä</nobr></li>
         </ul>
       </div>
-    </div>
+    </article>
   );
 };
 

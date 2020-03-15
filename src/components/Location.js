@@ -7,7 +7,7 @@ const Location = () => {
   const zoom = 11;
   
   return(
-    <div style = { {position: 'relative', textAlign: 'center', height: {height}, width: {width}} }>
+    <article style = { {position: 'relative', textAlign: 'center', height: {height}, width: {width}} }>
       <div style = { {overflow: 'hidden', background: 'none!important', height: {height}, width: {width}} }>
         <iframe 
           width={width}
@@ -20,7 +20,7 @@ const Location = () => {
           marginWidth = '0'
         ></iframe>
       </div>
-    </div>
+    </article>
   );
 };
 

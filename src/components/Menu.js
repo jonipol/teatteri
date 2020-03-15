@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import '../app.css';
+
 // Styling
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -14,7 +16,7 @@ const Menu = () => {
   };
 
   return (
-    <div>
+    <header>
       <Navbar collapseOnSelect bg='light' expand='md' expanded={navExpanded}>
         <Navbar.Brand as={Link} to='/'>Ristin kesäteatteri</Navbar.Brand>
         <Navbar.Toggle onClick={toggleNav}/>
@@ -32,7 +34,7 @@ const Menu = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </header>
   );
 };
 

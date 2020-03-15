@@ -50,29 +50,24 @@ const App = (props) => {
 
   // TODO: Facebook AppId + height
   return (
-    <div>
+    <main>
       <Router>
         <Menu />
-        <div id='container'>
-          <div id='content-wrap'>
-            <div id='mainDiv'>
-              <Route exact path = '/' render = { () => <Home /> } />
-              <Route exact path = '/sijainti' render = { () => <Location />} />
-              <Route exact path = '/hinnasto' render = { () => <Prices />} />
-              <Route exact path = '/ennen' render = { () => <Before />} />
-              <Route exact path = '/historiaa' render = { () => <History />} />
-              <Route exact path = '/aiempaa' render = { () => <Past /> } />
-              <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
-            
-            </div>
-            <div id='fbDiv'>
-              <Facebook />
-            </div>
-          </div>
-        </div>
+        <section>
+          <Route exact path = '/' render = { () => <Home /> } />
+          <Route exact path = '/sijainti' render = { () => <Location />} />
+          <Route exact path = '/hinnasto' render = { () => <Prices />} />
+          <Route exact path = '/ennen' render = { () => <Before />} />
+          <Route exact path = '/historiaa' render = { () => <History />} />
+          <Route exact path = '/aiempaa' render = { () => <Past /> } />
+          <Route exact path = '/kuvagalleria' render = { () => <Gallery /> } />
+          <aside>
+            <Facebook />
+          </aside>
+        </section>
         <Footer />
       </Router>
-    </div>
+    </main>
   )
 };
 

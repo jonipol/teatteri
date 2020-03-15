@@ -10,7 +10,7 @@ const Footer = () => {
 
 
   return(
-    <footer id='footer'>
+    <footer>
       <p style={{fontSize: '1.25em', fontWeight: 'bold'}}>
         Tiedustelut ja ryhmävaraukset <br /> 
         puh. 040 703 7478 <br />

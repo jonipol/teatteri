@@ -5,7 +5,7 @@ const Before = () => {
 
 
   return(
-    <div className='before'>
+    <article className='before'>
       <ul>
         <li>Näytelmän kesto on noin 2 tuntia. Sisältäen n. 20 minuutin mittaisen väliajan.</li>
         <li>Näytelmän käsiohjelmia jaetaan ennen esitystä lippukassalla.</li>
@@ -23,7 +23,7 @@ const Before = () => {
           vaihtaa johonkin toiseen esitykseen. Teatteri ei vastaa muista peruutusten tai force majore -tapausten asiakkaalle aiheuttamista kustannuksista.
         </p>
       </ul>
-    </div>
+    </article>
   );
 };
 

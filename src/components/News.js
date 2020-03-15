@@ -6,9 +6,9 @@ const News = () => {
 
 
   return (
-    <div>
+    <article>
       <img src={img}  style={{width: '95%', display: 'block', margin: 'auto'}} />
-    </div>
+    </article>
   );
 };
 

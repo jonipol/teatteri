@@ -7,7 +7,7 @@ const History = () => {
 // TODO: Resize images
 // TODO: On wide displays let images be next to each other
   return(
-    <div>
+    <article>
       <div style={{width: '95%', margin: 'auto', marginBottom: '1em'}}>
         <img src={vanhaKuva} width='95%' alt='Ristin koulu vuonna 19xx'/>
       </div>
@@ -25,7 +25,7 @@ const History = () => {
         <h4 style={{color: 'red'}}>tuore kuva koulusta samasta kuvakulmasta?</h4>
         <img src={vanhaKuva} width='95%' alt='Teatteritalo vuonna 2020'/>
       </div>
-    </div>
+    </article>
   );
 };
 

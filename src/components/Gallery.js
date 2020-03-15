@@ -3,7 +3,7 @@ import React from 'react';
 const Gallery = () => {
 
 
-  return(<div>Gallery</div>)
+  return(<article>Gallery</article>)
 };
 
 export default Gallery;

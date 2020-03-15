@@ -5,11 +5,11 @@ import PlayList from './PlayList';
 const Home = () => {
 
   return (
-    <div>
+    <article>
       <News />
       <h2 style={{marginTop: '3vh', textAlign: 'center'}}>Esitysajat</h2>
       <PlayList />
-    </div>
+    </article>
   );
 };
 
